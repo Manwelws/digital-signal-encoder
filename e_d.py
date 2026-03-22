@@ -127,7 +127,7 @@ elif not wronginput and len(bitstream) > 0:
                 flag *= -1
                 y.append(flag)
         if len(y) > 0:
-            y.append(y[-1]
+            y.append(y[-1])
     elif method == "7.B8Zs":
         i = 0
         last_1 = -1
