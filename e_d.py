@@ -175,6 +175,7 @@ elif not wronginput and len(bitstream) > 0:
                 else:
                     last_1 *= -1
                     y.append(last_1)
+                    y.extend([0, 0])
                     y.append(last_1)
 
                 ones_since_last_sub = 0
